@@ -1,3 +1,8 @@
+CREATE DATABASE TicketVendingMachine;
+GO
+
+USE TicketVendingMachine;
+GO
 CREATE TABLE Destinations (
     DestinationID INT PRIMARY KEY IDENTITY(1,1),
     Name NVARCHAR(100) NOT NULL,
